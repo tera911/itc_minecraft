@@ -45,7 +45,3 @@ processResources
         exclude 'mcmod.info'
     }
 }
-
-tasks.withType(Compile) {
-    options.encodin = 'UTF-8'
-}
